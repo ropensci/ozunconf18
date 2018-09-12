@@ -152,6 +152,15 @@ googleAnalytics = ""
       github = ""
       url = "https://soundcloud.com/crediblycurious"
 
+    [[params.team.members]]
+      name = "Emi Tanaka"
+      position = "School of Mathematics and Statistics, The University of Sydney, Australia"
+      img = "emi-tanaka.jpg"
+      twitter = "statsgen"
+      github = "https://github.com/emitanaka"
+      url = "https://emitanaka.github.io/"
+
+
 # Join us section
   [params.joinus]
   enable=true
