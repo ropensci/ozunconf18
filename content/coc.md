@@ -12,7 +12,7 @@ rOpenSci unconf participants agree to:
 
 ## Need Help?
 
-Please speak with Nick Tierney or Mathew Ling if you have any concerns. You may also reach out to venue staff who present all through the event if you are unable to reach Nick or Mat.
+Please speak with Nick Tierney or Mathew Ling if you have any concerns. You may also reach out to venue staff or security who will be present all through the event if you are unable to reach Nick or Mat.
 
 If any attendee engages in harassing behavior, the conference organizers may take any lawful action we deem appropriate, including but not limited to warning the offender or asking the offender to leave the conference. (If you feel you have been unfairly accused of violating this code of conduct, you should contact the conference team with a concise description of your grievance.)
 
