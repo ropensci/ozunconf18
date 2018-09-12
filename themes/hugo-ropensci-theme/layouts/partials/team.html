@@ -1,0 +1,62 @@
+{{ "<!-- Team Section -->" | safeHTML }}
+<section id="team" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.team.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.team.text }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
+      {{ range .Site.Params.team.members }}
+        <div class="col-sm-4 col">
+          <div class="team-member">
+            {{ $url := printf "img/team/%s" .img }}
+            <a href="{{ .url }}">
+            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}" height=150 width=150>
+            <h3>{{ .name | markdownify }}</h3>
+
+            {{ with .position }}
+            <h4>{{ . | markdownify }}</h4>
+            {{ end }}
+            {{ with .reportsTo }}
+            <h5 class="report">Reports to {{ . | markdownify }}</h5>
+            {{ end }}
+
+            {{ with .livesIn }}
+            <h5>Lives in {{ . | markdownify }}</h5>
+            {{ end }}
+
+            {{ with .scope }}
+            <ul>
+              {{ range . }}
+                <li>{{ . | markdownify }}</li>
+              {{ end }}
+            </ul>
+            {{ end }}
+            </a>
+
+            <ul class="list-inline social-buttons">
+            {{ with .twitter }}
+            <li><a href="http://twitter.com/{{ . }}"><i class="fa fa-twitter"></i></a></li>
+            {{ end }}
+            {{ with .github }}
+            <li><a href="http://github.com/{{ . }}"><i class="fa fa-github"></i></a></li>
+            {{ end }}
+            </ul>
+
+            {{ with .bio }}
+            <p class="team-bio">{{ . | markdownify }}</p>
+            {{ end }}
+
+          </div>
+        </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+  </div>
+</section>

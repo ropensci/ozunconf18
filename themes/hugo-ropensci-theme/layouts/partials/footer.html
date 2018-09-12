@@ -1,0 +1,10 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer class="bg-darkest-gray">
+  <div class="container">
+    <div class="row">
+    <p>
+        {{ with .Site.Params.footer.text }}{{ . | markdownify }}{{ end }}
+        </p>
+    </div>
+  </div>
+</footer>

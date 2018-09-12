@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+
+{{ "<!-- Hero -->" | safeHTML }}
+<header>
+  <div class="container">
+    <div class="intro-text">
+    </div>
+  </div>
+</header>
+
+<section class="bg-dark-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12" style='margin-top: 50px;'>
+<h1 itemprop="name">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>

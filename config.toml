@@ -1,0 +1,254 @@
+# Site settings
+baseurl = "https://ozunconf18.ropensci.org"
+canonifyurls = true
+relativeurls = false
+languageCode = "en-us"
+title = "rOpenSci OzUnconference"
+location = "Melbourne 2018"
+theme = "hugo-ropensci-theme"
+publishDir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "rOpenSci OzUnconference"
+  description = "Melbourne, Australia. 22-23 Novembe 2018"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Sorry, but you seem to have become lost."
+    text = "Please visit [the front page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "rOpenSci"
+    # Optional logo as brand stored in img/
+    logo = "ropensci_small.png"
+    about = "What"
+    team = "Who"
+    joinus="Join Us"
+    venue = "Venue"
+    sponsors = "Sponsors"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "rOpenSci OzUnconf"
+    subtitle = "22-23 November 2018 • Melbourne • Australia"
+    buttonText = "Tell me more"
+
+
+   # About section
+   [params.about]
+    enable = true
+    title = "The OzUnconference"
+    text = "For a second year running, we are excited to announce another [rOpenSci](http://ropensci.org/) OzUnconference in 2018 held in Melbourne, Australia. We're organizing this event to bring together scientists, developers, and open data enthusiasts from academia, industry, government, and non-profit to get together for a few days and hack on various projects. [Past projects](http://ozunconf17.ropensci.org/projects/) have related to open data, data visualization, data publication and open science using R. To ensure a safe, enjoyable, and friendly experience for everyone who participates, we have a strict [code of conduct](/coc) and [terms and conditions](/terms).\n\n All OzUnconference ideas will begin as GitHub issues on the [OzUnconf repo](https://github.com/ropensci/ozunconf18/issues/) in the weeks before the event. However, the actual schedule will not be decided until the morning of the 22nd. You can see some of the [projects proposed](https://github.com/ropensci/auunconf/ozunconf17) for last year's event in Australia, and the [projects proposed](https://github.com/ropensci/unconf18/issues) at the unconf in Seattle earlier this year."
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Participants"
+    text = "We are assembling an exciting team of developers and enthusiastic users representing academia, industry, government, and various open source projects."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    
+    [[params.team.members]]
+      name = "Nicholas Tierney"
+      position = "Monash University"
+      img = "nicholas-tierney.jpg"
+      twitter = "nj_tierney"
+      github = "njtierney"
+      url = "http://www.njtierney.com/"
+
+    [[params.team.members]]
+      name = "Di Cook"
+      position = "Monash University"
+      img = "di-cook.jpg"
+      twitter = "visnut"
+      github = "dicook"
+      url = "http://dicook.org"
+
+    [[params.team.members]]
+      name = "Rob Hyndman"
+      position = "Monash University"
+      img = "rob-hyndman.png"
+      twitter = "robjhyndman"
+      github = "robjhyndman"
+      url = "https://robjhyndman.com"
+
+    [[params.team.members]]
+      name = "Nick Golding"
+      position = "University of Melbourne"
+      img = "nick-golding.jpg"
+      twitter = "_NickGolding_"
+      github = "https://github.com/goldingn"
+      url = ""
+      
+    [[params.team.members]]
+      name = "Holly Kirk"
+      position = "RMIT University"
+      img = "holly-kirk.jpg"
+      twitter = "HollyKirk"
+      github = "hollylkirk"
+      url = ""
+
+    [[params.team.members]]
+      name = "Mathew Ling"
+      position = "Deakin University"
+      img = "mathew-ling.jpg"
+      twitter = "lingtax"
+      github = "Lingtax"
+      url = "http://mathewling.online/about"
+
+    [[params.team.members]]
+      name = "Saskia Freytag"
+      position = "Walter and Eliza Hall Institute"
+      img = "saskia-freytag.jpg"
+      twitter = "trashystats"
+      github = ""
+      url = "https://soundcloud.com/crediblycurious"
+
+# Join us section
+  [params.joinus]
+  enable=true
+  title = "Join us"
+  text = "The rOpenSci OzUnconference is our annual event loosely modeled on Foo Camp. This event is unlike many other unconferences in that it is mostly invite-only (past attendees often recommend new ones) with a few spots set aside for self-nominations from the community at large. The agenda is mostly decided during the conference itself. \n\n   If you'd like to attend, it only takes a few minutes to [nominate yourself](http://ozunconf17.ropensci.org/apply). \n\n The deadline for nominations is 14 October 2018."
+
+# Venue section
+  [params.venue]
+  enable=true
+  title = "Venue"
+  text = "The event will be hosted at the [University of Melbourne Arts West North Wing Rooms 453-454](https://maps.unimelb.edu.au/parkville/building/148a), Building 148a University of Melbourne"
+  map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.7033155773374!2d144.95810256588925!3d-37.79699214085815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65cd487b6a0b9%3A0xde2eb4f06c537678!2sArts+West%2C+The+University+of+Melbourne!5e0!3m2!1sen!2sau!4v1536732339717"
+
+
+  # Sponsors section
+
+    [params.sponsors_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      title = "Sponsors"
+      text = "We are extremely grateful to all the sponsors for this year's event. If your organization would like to sponsor the OzUnconf, please email nicholas.tierney [at] monash edu for a sponsorship prospectus."
+
+      # All the clients' logos are stored under 'static/img/sponsors'.
+      # Replace them with your sponsors's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.sponsors]]
+        logo = "ropensci-lettering-colour.png"
+        link = "http://ropensci.org"
+
+  # Contact section
+  [params.contact]
+    enable = false
+    title = "Contact us"
+    text  = "Lorem ipsum dolor sit amet consectetur."
+    buttonText = "Send message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "nicholas.tierney@monash.edu"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+    text = "[Contact us](https://njtierney.typeform.com/to/WrmNJO) for more information about the event. This page is available at [this repo](https://github.com/ropensci/ozunconf18). Corrections, changes, and suggestions for improvement are welcome as pull requests."
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"

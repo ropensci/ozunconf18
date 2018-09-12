@@ -1,0 +1,28 @@
+{{ "<!-- sponsors Aside -->" | safeHTML }}
+<section id="sponsors" class="bg-sponsors">
+<aside class="sponsors">
+  <div class="container">
+    <div class="row">
+     <div class="col-lg-12">
+     <h2 class="section-heading">{{ with .Site.Params.sponsors_list.title }}{{ . }}{{ end }}</h2>
+        <p>{{ with .Site.Params.sponsors_list.text }}{{ . | markdownify }}{{ end }}</p>
+    </div>
+    </div>
+    <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
+
+      {{ range .Site.Params.sponsors }}
+        <div class="col-md-3 col-sm-6 col">
+          {{ $url := printf "img/sponsors/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</aside>
+</section>

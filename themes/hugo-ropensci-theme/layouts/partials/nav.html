@@ -1,0 +1,88 @@
+{{ "<!-- Navigation -->" | safeHTML }}
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{ if .Site.Params.navigation.logo }}
+        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+          {{ $url := printf "img/%s" .Site.Params.navigation.logo }}
+          <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
+        </a>
+      {{ else }}
+        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+          {{ .Site.Params.navigation.brand }}
+        </a>
+      {{ end }}
+
+    </div>
+    {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
+        </li>
+
+        {{ range .Site.Menus.prepend }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.about.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.team.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ if .Site.Params.joinus.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#joinus">{{ with .Site.Params.navigation.joinus }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+
+        {{ if .Site.Params.venue.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#venue">{{ with .Site.Params.navigation.venue }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+
+
+        {{ if .Site.Params.sponsors_list.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#sponsors">{{ with .Site.Params.navigation.sponsors }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+
+        {{ if .Site.Params.contact.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
+        {{ range .Site.Menus.postpend }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+  </div>
+  {{ "<!-- /.container-fluid -->" | safeHTML }}
+</nav>

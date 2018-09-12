@@ -1,0 +1,11 @@
+{{ "<!-- Services -->" | safeHTML }}
+<section id="joinus" class="bg-joinus">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-heading">{{ with .Site.Params.joinus.title }}{{ . }}{{ end }}</h2>
+        <div class="joinus">{{ with .Site.Params.joinus.text }}{{ . | markdownify }}{{ end }}</div>
+      </div>
+    </div>
+  </div>
+</section>
