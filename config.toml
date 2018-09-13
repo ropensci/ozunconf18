@@ -120,13 +120,14 @@ googleAnalytics = ""
       github = "robjhyndman"
       url = "https://robjhyndman.com"
 
+
     [[params.team.members]]
-      name = "Nick Golding"
-      position = "University of Melbourne"
-      img = "nick-golding.jpg"
-      twitter = "_NickGolding_"
-      github = "https://github.com/goldingn"
-      url = ""
+      name = "Saskia Freytag"
+      position = "Walter and Eliza Hall Institute"
+      img = "saskia-freytag.jpg"
+      twitter = "trashystats"
+      github = ""
+      url = "https://soundcloud.com/crediblycurious"
       
     [[params.team.members]]
       name = "Holly Kirk"
@@ -134,7 +135,7 @@ googleAnalytics = ""
       img = "holly-kirk.jpg"
       twitter = "HollyKirk"
       github = "hollylkirk"
-      url = ""
+      url = "https://natureonthebrain.wordpress.com/"
 
     [[params.team.members]]
       name = "Mathew Ling"
@@ -144,23 +145,39 @@ googleAnalytics = ""
       github = "Lingtax"
       url = "http://mathewling.online/about"
 
+
     [[params.team.members]]
-      name = "Saskia Freytag"
-      position = "Walter and Eliza Hall Institute"
-      img = "saskia-freytag.jpg"
-      twitter = "trashystats"
-      github = ""
-      url = "https://soundcloud.com/crediblycurious"
+      name = "Nick Golding"
+      position = "University of Melbourne"
+      img = "nick-golding.jpg"
+      twitter = "_NickGolding_"
+      github = "goldingn"
+      url = ""
 
     [[params.team.members]]
       name = "Emi Tanaka"
-      position = "School of Mathematics and Statistics, The University of Sydney, Australia"
+      position = "University of Sydney"
       img = "emi-tanaka.jpg"
       twitter = "statsgen"
-      github = "https://github.com/emitanaka"
+      github = "emitanaka"
       url = "https://emitanaka.github.io/"
 
+    [[params.team.members]]
+      name = "Danielle Navarro"
+      position = "University of New South Wales"
+      img = "dani-navarro.jpg"
+      twitter = "djnavarro"
+      github = "djnavarro"
+      url = "http://compcogscisydney.org/"
 
+    [[params.team.members]]
+      name = "Thomas Lumley"
+      position = "University of Auckland"
+      img = "thomas-lumley.jpg"
+      twitter = "tslumley"
+      github = "tslumley"
+      url = "notstatchat.rbind.io"
+      
 # Join us section
   [params.joinus]
   enable=true
