@@ -176,7 +176,15 @@ googleAnalytics = ""
       img = "thomas-lumley.jpg"
       twitter = "tslumley"
       github = "tslumley"
-      url = "notstatchat.rbind.io"
+      url = "https://notstatschat.rbind.io/"
+    
+    [[params.team.members]]
+      name = "Saras Windecker"
+      position = "University of Melbourne"
+      img = "saras-windecker.png"
+      twitter = "smwindecker"
+      github = "smwindecker"
+      url = "www.smwindecker.com"
       
 # Join us section
   [params.joinus]
