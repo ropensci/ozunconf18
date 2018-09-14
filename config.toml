@@ -198,7 +198,7 @@ googleAnalytics = ""
   [params.joinus]
   enable=true
   title = "Join us"
-  text = "The rOpenSci OzUnconference is our annual event loosely modeled on Foo Camp. This event is unlike many other unconferences in that it is mostly invite-only (past attendees often recommend new ones) with a few spots set aside for self-nominations from the community at large. The agenda is mostly decided during the conference itself. \n\n   If you'd like to attend, it only takes a few minutes to [nominate yourself](http://ozunconf18.ropensci.org/apply). \n\n The deadline for nominations is 14 October 2018."
+  text = "The rOpenSci OzUnconference is our annual event loosely modeled on Foo Camp. This event is unlike many other unconferences in that it is mostly invite-only (past attendees often recommend new ones) with a few spots set aside for self-nominations from the community at large. The agenda is mostly decided during the conference itself. \n\n   If you'd like to attend, it only takes a few minutes to [nominate yourself](http://ozunconf18.ropensci.org/apply). \n\n The deadline for nominations is 12 October 2018, and responses will be given by October 19."
 
 # Venue section
   [params.venue]
@@ -223,6 +223,11 @@ googleAnalytics = ""
       [[params.sponsors]]
         logo = "ropensci-lettering-colour.png"
         link = "http://ropensci.org"
+        
+      [[params.sponsors]]
+        logo = "rstudio-logo.png"
+        link = "http://rstudio.com"
+
 
   # Contact section
   [params.contact]
