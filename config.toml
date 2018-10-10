@@ -222,11 +222,20 @@ googleAnalytics = ""
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.sponsors]]
         logo = "ropensci-lettering-colour.png"
-        link = "http://ropensci.org"
+        link = "https://ropensci.org"
         
       [[params.sponsors]]
+        logo = "microsoft-azure.png"
+        link = "https://www.r-consortium.org/"
+      
+      [[params.sponsors]]
+        logo = "RConsortium.png"
+        link = "https://www.r-consortium.org/"
+      
+      
+      [[params.sponsors]]
         logo = "rstudio-logo.png"
-        link = "http://rstudio.com"
+        link = "https://rstudio.com"
 
 
   # Contact section
