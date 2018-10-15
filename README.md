@@ -19,3 +19,6 @@ To ensure a safe, enjoyable, and friendly experience for everyone who participat
 This meeting is made possible by generous support from:
 
 - rOpenSci
+- Microsoft Azure
+- The R Consortium
+- RStudio
