@@ -11,7 +11,7 @@
     <div class="row flexbox{{ if .Site.Params.sponsors_list.center }} flexbox-center{{ end }}">
 
       {{ range .Site.Params.sponsors }}
-        <div class="col-md-3 col-sm-6 col">
+        <div class="col-md-5 col-sm-6 col">
           {{ $url := printf "img/sponsors/%s" .logo }}
           {{ if .link }}
             <a href="{{ .link }}">
