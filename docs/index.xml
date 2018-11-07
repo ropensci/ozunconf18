@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rOpenSci OzUnconference</title>
-    <link>/</link>
+    <link>https://ozunconf18.ropensci.org/</link>
     <description>Recent content on rOpenSci OzUnconference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ozunconf18.ropensci.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/apply/</link>
+      <link>https://ozunconf18.ropensci.org/apply/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/apply/</guid>
+      <guid>https://ozunconf18.ropensci.org/apply/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/apply/</link>
+      <link>https://ozunconf18.ropensci.org/apply/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/apply/</guid>
+      <guid>https://ozunconf18.ropensci.org/apply/</guid>
       <description>  ozunconf18 html{ margin: 0; height: 100%; overflow: hidden; } iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0; }        </description>
     </item>
     
     <item>
       <title></title>
-      <link>/coc/</link>
+      <link>https://ozunconf18.ropensci.org/coc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/coc/</guid>
+      <guid>https://ozunconf18.ropensci.org/coc/</guid>
       <description>rOpenSci code of conduct The organisers of the Melbourne rOpenSci Unconference are committed to providing a welcoming and harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/terms/</link>
+      <link>https://ozunconf18.ropensci.org/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/terms/</guid>
+      <guid>https://ozunconf18.ropensci.org/terms/</guid>
       <description>rOpenSci unconf terms and conditions These terms and conditions apply to the rOpenSci ozunconference 2018 (“Event”) hosted by and on behalf of The rOpenSci project, a fiscally sponsored project of Numfocus Inc, a non-profit registered in Texas (P.O. Box 90596 Austin, TX 78709 USA). The purpose of the Event is to encourage development of open source tools and grow a community of open source developers and mentors around the R programming language.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/yay/</link>
+      <link>https://ozunconf18.ropensci.org/yay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/yay/</guid>
+      <guid>https://ozunconf18.ropensci.org/yay/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/yay/</link>
+      <link>https://ozunconf18.ropensci.org/yay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/yay/</guid>
+      <guid>https://ozunconf18.ropensci.org/yay/</guid>
       <description>  rOpenSci ozunconf 2017 info html{ margin: 0; height: 100%; overflow: hidden; } iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0; }        </description>
     </item>
     

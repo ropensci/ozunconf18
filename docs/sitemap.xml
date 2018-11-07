@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/apply/</loc>
+    <loc>https://ozunconf18.ropensci.org/apply/</loc>
   </url>
   
   <url>
-    <loc>/apply/</loc>
+    <loc>https://ozunconf18.ropensci.org/apply/</loc>
   </url>
   
   <url>
-    <loc>/coc/</loc>
+    <loc>https://ozunconf18.ropensci.org/coc/</loc>
   </url>
   
   <url>
-    <loc>/terms/</loc>
+    <loc>https://ozunconf18.ropensci.org/terms/</loc>
   </url>
   
   <url>
-    <loc>/yay/</loc>
+    <loc>https://ozunconf18.ropensci.org/yay/</loc>
   </url>
   
   <url>
-    <loc>/yay/</loc>
+    <loc>https://ozunconf18.ropensci.org/yay/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://ozunconf18.ropensci.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://ozunconf18.ropensci.org/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://ozunconf18.ropensci.org/</loc>
     <priority>0</priority>
   </url>
   
