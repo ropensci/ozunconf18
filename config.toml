@@ -193,6 +193,256 @@ googleAnalytics = ""
       twitter = "stefanbache"
       github = "smbache"
       url = "http://stefanbache.dk/"
+     
+
+    [[params.team.members]]
+      name = "Stuart Lee"
+      position = "Monash / WEHI"
+      img = "stuart-lee.jpg"
+      twitter = "_StuartLee"
+      github = "sa-lee"
+      url = "http://stuartlee.org/"
+
+    [[params.team.members]]
+      name = "Felix Singleton Thorn"
+      position = "University of Melbourne"
+      img = "felix-st.png"
+      twitter = "FSingletonThorn"
+      github = "fsingletonthorn"
+      url = "https://imerg.info"
+
+    [[params.team.members]]
+      name = "Emily Kothe"
+      position = "Deakin University"
+      img = "emily-kothe.jpg"
+      twitter = "emilyandthelime"
+      github = "ekothe"
+      url = "https://emilykothe.com"
+
+    [[params.team.members]]
+      name = "Mitchell O'Hara-Wild"
+      position = "Monash University"
+      img = "mitch-ohara-wild.jpg"
+      twitter = "mitchoharawild"
+      github = "mitchelloharawild"
+      url = "https://mitchelloharawild.com/"
+
+    [[params.team.members]]
+      name = "Alan Pearse"
+      position = "Queensland University of Technology"
+      img = "alan-pearse.jpg"
+      twitter = "apear91"
+      github = "github.com/apear9"
+      url = "https://goo.gl/CNrbYB"
+
+    [[params.team.members]]
+      name = "Matt Johnson"
+      position = "EPA Victoria"
+      img = "matt-johnson.jpg"
+      twitter = "mrjoh3"
+      github = "mrjoh3"
+      url = "https://mrjoh3.github.io"
+
+    [[params.team.members]]
+      name = "Mark Greenaway"
+      position = "University of Sydney"
+      img = "mark-greenaway.jpg"
+      twitter = "certifiedwaif"
+      github = "certifiedwaif"
+      url = "NA"
+
+    [[params.team.members]]
+      name = "Sarah Romanes"
+      position = "University of Sydney"
+      img = "sarah-romanes.jpg"
+      twitter = "sarah_romanes"
+      github = "sarahromanes"
+      url = "NA"
+
+    [[params.team.members]]
+      name = "Adam Gruer"
+      position = "The Royal Children's Hospital Melbourne"
+      img = "adam-gruer.jpg"
+      twitter = "AdamGruer"
+      github = "adam-gruer"
+      url = "https://adamgruer.rbind.io/"
+
+    [[params.team.members]]
+      name = "Radoslaw Panczak"
+      position = "University of Queensland"
+      img = "radoslaw-panczak.png"
+      twitter = "RPanczak"
+      github = "RPanczak"
+      url = "https://scholar.google.com/citations?user=8j-L0asAAAAJ&hl=en"
+
+    [[params.team.members]]
+      name = "Dan Wilson"
+      position = "The Data Collective"
+      img = "dan-wilson.jpeg"
+      twitter = "danwwilson"
+      github = "danwwilson"
+      url = "https://www.google.com/url?q=https://thedatacollective.com.au&source=gmail&ust=1541652173896000&usg=AFQjCNE2XZl80yo19qHRCG4obJfO7rW_bQ"
+
+    [[params.team.members]]
+      name = "Amy Stringer"
+      position = "Queensland University of Technology"
+      img = "amy-stringer.jpeg"
+      twitter = "AmyStringer11"
+      github = "AmyStringer"
+      url = "NA"
+
+    [[params.team.members]]
+      name = "Sadia Nawaz"
+      position = "University of Melbourne"
+      img = "sadia-nawaz.jpg"
+      twitter = "1sadiaz"
+      github = "sadian"
+      url = "https://www.researchgate.net/profile/Sadia_Nawaz3"
+
+    [[params.team.members]]
+      name = "Anna Quaglieri"
+      position = "WEHI"
+      img = "anna-quaglieri.jpg"
+      twitter = "annaquagli"
+      github = "annaquaglieri16"
+      url = "NA"
+
+    [[params.team.members]]
+      name = "Rhydwyn Mcguire"
+      position = "Health Protection NSW"
+      img = "rhydwyn-mcguire.jpg"
+      twitter = "Rhydwyn"
+      github = "NA"
+      url = "Rhydwyn"
+
+    [[params.team.members]]
+      name = "Nathan Lane"
+      position = "Monash University"
+      img = "nathan-lane.jpg"
+      twitter = "straightedge"
+      github = "nathanlane"
+      url = "http://nathanlane.info/"
+
+    [[params.team.members]]
+      name = "Gabriela D'Souza"
+      position = "Grattan Institute"
+      img = "gabriella-dsouza.JPG"
+      twitter = "gabster0191"
+      github = "gabyd"
+      url = "https://gdsouza0191.wixsite.com/mysite"
+
+    [[params.team.members]]
+      name = "Ben Raymond"
+      position = "Australian Antarctic Division & University of Tasmania"
+      img = "ben-raymond.jpg"
+      twitter = "NA"
+      github = "raymondben"
+      url = "https://github.com/raymondben/"
+
+    [[params.team.members]]
+      name = "Jennifer Beaudry"
+      position = "Swinburne University of Technology"
+      img = "jennifer-beaudry.jpg"
+      twitter = "drjbeaudry"
+      github = "NA"
+      url = "http://www.swinburne.edu.au/health-arts-design/staff/profile/index.php?id=jbeaudry"
+
+    [[params.team.members]]
+      name = "Roni Hang"
+      position = "Transport for NSW"
+      img = "roni-hang.jpg"
+      twitter = "dataroni8"
+      github = "dataroni8"
+      url = "https://www.linkedin.com/in/roni-hang-144543161/"
+
+    [[params.team.members]]
+      name = "Elise Gould"
+      position = "University of Melbourne"
+      img = "elise-gould.jpg"
+      twitter = "EliseGould"
+      github = "egouldo"
+      url = "https://egouldo.github.io/"
+
+    [[params.team.members]]
+      name = "Chun Fung Kwok"
+      position = "University of Melbourne"
+      img = "jackson-kwok.png"
+      twitter = "NA"
+      github = "https://github.com/kcf-jackson"
+      url = "https://www.google.com/url?q=https://github.com/kcf-jackson/&source=gmail&ust=1541652995376000&usg=AFQjCNHVSMygOZ1T3z5YSXmzZJIezJdnJQ"
+
+    [[params.team.members]]
+      name = "Felix Leung"
+      position = "BOCSAR"
+      img = "felix-leung.jpg"
+      twitter = "https://twitter.com/felixleungsc"
+      github = "http://gitlab.com/felixleungsc"
+      url = "https://gitlab.com/felixleungsc"
+
+    [[params.team.members]]
+      name = "Mike Cheng"
+      position = "Model Answers"
+      img = "mike-cheng.jpeg"
+      twitter = "coolbutuseless"
+      github = "coolbutuseless"
+      url = "http://model-a.com.au/"
+
+    [[params.team.members]]
+      name = "Laura de Jong"
+      position = "Deakin University"
+      img = "laura-dejong.jpg"
+      twitter = "LMSdeJong"
+      github = "Not yet there"
+      url = "https://twitter.com/LMSdeJong"
+
+    [[params.team.members]]
+      name = "Robbie Bonelli"
+      position = "WEHI"
+      img = "robbie-bonelli.jpg"
+      twitter = "robbie_bonelli"
+      github = "Robbie90"
+      url = "https://www.linkedin.com/in/roberto-bonelli/"
+
+    [[params.team.members]]
+      name = "Claire Miller"
+      position = "University of Melbourne"
+      img = "claire-miller.png"
+      twitter = "NA"
+      github = "clairemiller"
+      url = "NA"
+
+    [[params.team.members]]
+      name = "Steven Kambouris"
+      position = "University of Melbourne"
+      img = "steven-kambouris.jpg"
+      twitter = "steve_kambouris"
+      github = "stevekambouris"
+      url = "https://imerg.info/"
+
+    [[params.team.members]]
+      name = "Jessie Roberts"
+      position = "ACEMS, QUT"
+      img = "jessie-roberts.jpg"
+      twitter = "_jessie_roberts"
+      github = "Jesse-jesse"
+      url = "NA"
+
+    [[params.team.members]]
+      name = "Mark Dulhunty"
+      position = "EMS"
+      img = "mark-dulhunty.jpg"
+      twitter = "markdly_"
+      github = "markdly"
+      url = "https://markdly.github.io/"
+
+    [[params.team.members]]
+      name = "Peggy Newman"
+      position = "Atlas of Living Australia"
+      img = "peggy-newman.jpg"
+      twitter = "NA"
+      github = "NA"
+      url = "http://ala.org.au"
+    
       
 # Join us section
   [params.joinus]
