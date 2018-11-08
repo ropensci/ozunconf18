@@ -325,7 +325,7 @@ googleAnalytics = ""
 
     [[params.team.members]]
       name = "Gabriela D'Souza"
-      position = "Grattan Institute"
+      position = "[CEDA](https://ceda.com.au/)"
       img = "gabriella-dsouza.JPG"
       twitter = "gabster0191"
       github = "gabyd"
@@ -364,7 +364,7 @@ googleAnalytics = ""
       url = "https://egouldo.github.io/"
 
     [[params.team.members]]
-      name = "Chun Fung Kwok"
+      name = "Jackson Kwok"
       position = "University of Melbourne"
       img = "jackson-kwok.png"
       twitter = "NA"
