@@ -438,11 +438,10 @@ googleAnalytics = ""
     [[params.team.members]]
       name = "Peggy Newman"
       position = "Atlas of Living Australia"
-      img = "peggy-newman.jpg"
-      twitter = "NA"
-      github = "NA"
+      img = "peg-newman.jpg"
+      twitter = "peg_newman"
+      github = "peggynewman"
       url = "http://ala.org.au"
-    
       
 # Join us section
   [params.joinus]
@@ -479,9 +478,12 @@ googleAnalytics = ""
         link = "https://www.r-consortium.org/"
       
       [[params.sponsors]]
+        logo = "unimelb.png"
+        link = "https://www.unimelb.edu.au/"
+      
+      [[params.sponsors]]
         logo = "RConsortium.png"
         link = "https://www.r-consortium.org/"
-      
       
       [[params.sponsors]]
         logo = "rstudio-logo.png"
