@@ -22,3 +22,4 @@ This meeting is made possible by generous support from:
 - Microsoft Azure
 - The R Consortium
 - RStudio
+- The University of Melbourne
