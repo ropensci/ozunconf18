@@ -4,7 +4,7 @@
 
 ### :mortar_board::page_facing_up:[vitae - automated CV functions and templates](https://github.com/ropenscilabs/vitae)
 
-### :school::chart_with_upwards_trend::sparkles:[learngganimate - a guide to all things gganimate](https://github.com/ropenscilabs/learngganimate);books:
+### :school::chart_with_upwards_trend::sparkles:[learngganimate - a guide to all things gganimate](https://github.com/ropenscilabs/learngganimate):books:
 
 ### :baby::name_badge:[ozbabynames - popular Australian baby names by sex, state and year](https://github.com/ropenscilabs/ozbabynames)
 
