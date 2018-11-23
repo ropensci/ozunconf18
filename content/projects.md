@@ -16,7 +16,7 @@
 
 ### :speech_balloon:[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer):memo:
 
-### :busts_in_silhouette::arrow_right::woman::man:[genderrecoder - helpers for managing complex free-text gender entry data](https://github.com/ropenscilabs/genderrecoder)
+### :rainbow:[genderrecoder - helpers for managing complex free-text gender entry data](https://github.com/ropenscilabs/genderrecoder):busts_in_silhouette::arrow_right::woman::man::rainbow:
 
 ### :package::whale2:[containerit - package your analysis with Docker ](https://github.com/ropenscilabs/containerit)
 
