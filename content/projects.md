@@ -12,7 +12,7 @@
 
 ### :earth_americas::repeat::earth_asia:[geoflowr - animating geographical flows](https://github.com/ropenscilabs/geoflowr/)
 
-### :computer::mag:[jerbs - scraping Department of employment and jobs website](https://github.com/gabyd/jerbs)
+### :computer::mag:[jerbs - scraping and tidying Department of employment and jobs website](https://github.com/gabyd/jerbs)
 
 ### :speech_balloon:[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer):memo:
 
@@ -25,6 +25,8 @@
 ### :bird::speech_balloon:[UntweetdAus - tweeting underappreciated endangered species](https://github.com/ropenscilabs/UntweetdAus):ant::bug::snake:
 
 ### :book::left_right_arrow::pencil:[syn - a synonym package](https://github.com/ropenscilabs/syn)
+
+### :clipboard::paperclip:[bindertools - Easy initiation of R binders on github](https://github.com/ropenscilabs/bindertools):open_file_folder:
 
 ---
 
