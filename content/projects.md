@@ -14,7 +14,7 @@
 
 ### :computer::mag:[jerbs - scraping Department of employment and jobs website](https://github.com/gabyd/jerbs)
 
-###💬 :speech_balloon:[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer):memo:
+### :speech_balloon:[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer):memo:
 
 ### :busts_in_silhouette::arrow_right::woman::man:[genderrecoder - helpers for managing complex free-text gender entry data](https://github.com/ropenscilabs/genderrecoder)
 
