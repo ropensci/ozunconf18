@@ -1,36 +1,35 @@
-# R OpenSci ozunconference 2018 Projects
 
-### :question::memo::black_nib:[tl - tl;dr documentation for r  functions](https://github.com/ropenscilabs/tl)
+R OpenSci ozunconference 2018 Projects
+======================================
 
-### :mortar_board::page_facing_up:[vitae - automated CV functions and templates](https://github.com/ropenscilabs/vitae)
+### ❓📝✒️[tl - tl;dr documentation for r functions](https://github.com/ropenscilabs/tl)
 
-### :school::chart_with_upwards_trend::sparkles:[learngganimate - a guide to all things gganimate](https://github.com/ropenscilabs/learngganimate):books:
+### 🎓📄[vitae - automated CV functions and templates](https://github.com/ropenscilabs/vitae)
 
-### :baby::name_badge:[ozbabynames - popular Australian baby names by sex, state and year](https://github.com/ropenscilabs/ozbabynames)
+### 🏫📈✨[learngganimate - a guide to all things gganimate](https://github.com/ropenscilabs/learngganimate)📚
 
-### :blue_book::mag:[simpletextr - makes Natural Language Processing simple ](https://github.com/ropenscilabs/simpletextr)
+### 👶📛[ozbabynames - popular Australian baby names by sex, state and year](https://github.com/ropenscilabs/ozbabynames)
 
-### :earth_americas::repeat::earth_asia:[geoflowr - animating geographical flows](https://github.com/ropenscilabs/geoflowr/)
+### 📘🔍[simpletextr - makes Natural Language Processing simple](https://github.com/ropenscilabs/simpletextr)
 
-### :computer::mag:[jerbs - scraping and tidying Department of employment and jobs website](https://github.com/gabyd/jerbs)
+### 🌎🔁🌏[geoflowr - animating geographical flows](https://github.com/ropenscilabs/geoflowr/)
 
-### :speech_balloon:[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer):memo:
+### 💻🔍[jerbs - scraping and tidying Department of employment and jobs website](https://github.com/gabyd/jerbs)
 
-### :rainbow:[gendercoder - helpers for managing complex free-text gender entry data](https://github.com/ropenscilabs/gendercoder):busts_in_silhouette::arrow_right::woman::man::rainbow:
+### 💬[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer)📝
 
-### :package::whale2:[containerit - package your analysis with Docker ](https://github.com/ropenscilabs/containerit)
+### 🌈[gendercoder - helpers for managing complex free-text gender entry data](https://github.com/ropenscilabs/gendercoder)👥➡️👩👨🌈
 
-### :walking:[rwalkable - how walkable is a neighbourhood](https://github.com/sa-lee/rwalkable)
+### 📦🐋[containerit - package your analysis with Docker](https://github.com/ropenscilabs/containerit)
 
-### :bird::speech_balloon:[UntweetdAus - tweeting underappreciated endangered species](https://github.com/ropenscilabs/UntweetdAus):ant::bug::snake:
+### 🚶[rwalkable - how walkable is a neighbourhood](https://github.com/sa-lee/rwalkable)
 
-### :book::left_right_arrow::pencil:[syn - a synonym package](https://github.com/ropenscilabs/syn)
+### 🐦💬[UntweetdAus - tweeting underappreciated endangered species](https://github.com/ropenscilabs/UntweetdAus)🐜🐛🐍
 
-### :clipboard::paperclip:[bindertools - Easy initiation of R binders on github](https://github.com/ropenscilabs/bindertools):open_file_folder:
+### 📖↔️📝[syn - a synonym package](https://github.com/ropenscilabs/syn)
 
----
+### 📋📎[bindertools - Easy initiation of R binders on github](https://github.com/ropenscilabs/bindertools)📂
 
-If there are any projects that you know are missing please
-[fork](https://github.com/ropensci/ozunconf18)
-this document on GitHub, make changes, and then send a pull
-request.
+------------------------------------------------------------------------
+
+If there are any projects that you know are missing please [fork](https://github.com/ropensci/ozunconf18) this document on GitHub, make changes, and then send a pull request.
