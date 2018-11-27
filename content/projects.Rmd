@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+# R OpenSci ozunconference 2018 Projects
+
+### `r emo::ji("question")` `r emo::ji("memo")` `r emo::ji("black_nib")` [tl - tl;dr documentation for r  functions](https://github.com/ropenscilabs/tl)
+
+### 🎓`r emo::ji("page facing up")`[vitae - automated CV functions and templates](https://github.com/ropenscilabs/vitae)
+
+### `r emo::ji("school")` `r emo::ji("chart")` `r emo::ji("sparkles")`[learngganimate - a guide to all things gganimate](https://github.com/ropenscilabs/learngganimate) `r emo::ji("books")`
+
+### `r emo::ji("baby")` `r emo::ji("name")`[ozbabynames - popular Australian baby names by sex, state and year](https://github.com/ropenscilabs/ozbabynames)
+
+### `r emo::ji("book")` `r emo::ji("mag")`[simpletextr - makes Natural Language Processing simple ](https://github.com/ropenscilabs/simpletextr)
+
+### `r emo::ji("earth")` `r emo::ji("repeat")` `r emo::ji("earth")`[geoflowr - animating geographical flows](https://github.com/ropenscilabs/geoflowr/)
+
+### `r emo::ji("computer")` `r emo::ji("mag")`[jerbs - scraping and tidying Department of employment and jobs website](https://github.com/gabyd/jerbs)
+
+### `r emo::ji("speech")`[reviewer - better track changes and reviewing experience in R markdown](https://github.com/ropenscilabs/reviewer) `r emo::ji("memo")`
+
+### `r emo::ji("rainbow")`[genderrecoder - helpers for managing complex free-text gender entry data](https://github.com/ropenscilabs/genderrecoder) 👥➡️ `r emo::ji("woman")` `r emo::ji("man")` `r emo::ji("rainbow")`
+
+### `r emo::ji("package")` `r emo::ji("whale2")`[containerit - package your analysis with Docker ](https://github.com/ropenscilabs/containerit)
+
+### `r emo::ji("walking")`[rwalkable - how walkable is a neighbourhood](https://github.com/sa-lee/rwalkable)
+
+### `r emo::ji("bird")` `r emo::ji("speech")`[UntweetdAus - tweeting underappreciated endangered species](https://github.com/ropenscilabs/UntweetdAus) `r emo::ji("ant")` `r emo::ji("bug")` `r emo::ji("snake")`
+
+### `r emo::ji("book")`↔️ `r emo::ji("pencil")`[syn - a synonym package](https://github.com/ropenscilabs/syn)
+
+### `r emo::ji("clipboard")` `r emo::ji("paperclip")`[bindertools - Easy initiation of R binders on github](https://github.com/ropenscilabs/bindertools) `r emo::ji("folder")`
+
+---
+
+If there are any projects that you know are missing please
+[fork](https://github.com/ropensci/ozunconf18)
+this document on GitHub, make changes, and then send a pull
+request.
