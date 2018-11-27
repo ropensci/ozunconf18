@@ -11,7 +11,7 @@
 
 ### 📖 🔍[simpletextr - makes Natural Language Processing simple](https://github.com/ropenscilabs/simpletextr)
 
-### 🌎 🔁 🌎[geoflowr - animating geographical flows](https://github.com/ropenscilabs/geoflowr/)
+### 🌎 🔁 🌍[geoflowr - animating geographical flows](https://github.com/ropenscilabs/geoflowr/)
 
 ### 💻 🔍[jerbs - scraping and tidying Department of employment and jobs website](https://github.com/gabyd/jerbs)
 
@@ -27,7 +27,7 @@
 
 ### 📖↔️ 📝[syn - a synonym package](https://github.com/ropenscilabs/syn)
 
-### 📋 📎[bindertools - Easy initiation of R binders on github](https://github.com/ropenscilabs/bindertools) 📁
+### 📋 📎[bindertools - Easy initiation of R binders on github](https://github.com/ropenscilabs/bindertools) 📂
 
 -----
 
