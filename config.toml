@@ -478,16 +478,20 @@ googleAnalytics = ""
         link = "https://www.r-consortium.org/"
       
       [[params.sponsors]]
-        logo = "unimelb.png"
-        link = "https://www.unimelb.edu.au/"
-      
-      [[params.sponsors]]
         logo = "RConsortium.png"
         link = "https://www.r-consortium.org/"
       
       [[params.sponsors]]
         logo = "rstudio-logo.png"
         link = "https://rstudio.com"
+      
+      [[params.sponsors]]
+        logo = "unimelb.png"
+        link = "https://www.unimelb.edu.au/"
+      
+      [[params.sponsors]]
+        logo = "monash-business-school.jpg"
+        link = "https://www.monash.edu/business"
 
 
   # Contact section
