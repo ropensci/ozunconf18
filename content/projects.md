@@ -21,7 +21,7 @@
 
 ### 📦 🐋[containerit - package your analysis with Docker](https://github.com/ropenscilabs/containerit)
 
-### 🚶[rwalkable - how walkable is a neighbourhood](https://github.com/sa-lee/rwalkable)
+### 🚶[rwalkable - how walkable is a neighbourhood](https://github.com/ropenscilabs/rwalkable)
 
 ### 🐦 💬[UntweetdAus - tweeting underappreciated endangered species](https://github.com/ropenscilabs/UntweetdAus) 🐜 🐛 🐍
 
